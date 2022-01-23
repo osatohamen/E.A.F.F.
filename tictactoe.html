@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>tic-tac-toe</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    
+    <div class="container">
+      <h1 class="w3-center" >Tic-Tac-Toe</h1>
+      <p> You are player "O", make your move </p>
+        <div class="play-area">
+          <div id="block_0" class="block"></div>
+          <div id="block_1" class="block"></div>
+          <div id="block_2" class="block"></div>
+          <div id="block_3" class="block"></div>
+          <div id="block_4" class="block"></div>
+          <div id="block_5" class="block"></div>
+          <div id="block_6" class="block"></div>
+          <div id="block_7" class="block"></div>
+          <div id="block_8" class="block"></div>
+        </div>
+
+      <h1 id="winner"></h1>
+      <button class='button'><a href="./hangman.html" title="">Next</a></button>
+
+      <h2 id="loser"></h2>
+      <button class='button' onclick="reset_board()">RESET BOARD</button>
+    </div>
+    
+    <script src="./script.js"></script>
+    
+  </body>
+  
+
+</html>
