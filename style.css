@@ -20,7 +20,6 @@ h1 {
   margin-left: 0%;
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
   color: black;
-  text-shadow: 1px 1px whitesmoke;
 }
 
 h2 {
@@ -131,4 +130,42 @@ h3 {
 
 .draw {
   color: orangered;
+}
+
+    
+.action {
+  max-width: 800px;
+  padding: 40px 0;
+  margin: 0 auto;
+  background-color: orange;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+}
+    
+.options {
+  flex: 1 1 30%;
+  border-radius: 50%;
+  border-width: 4px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  animation-name: anim-fade;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  width: 100%;
+  max-width: 120px;
+}
+
+.display-moves {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.separator {
+  font-size: 5em;
 }
