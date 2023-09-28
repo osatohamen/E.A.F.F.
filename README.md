@@ -21,3 +21,4 @@
 <br>
 
 www.eaff.tech
+<p> (^ free trial expired, cries in broke student) </p>
